@@ -45,7 +45,7 @@ def main():
         ) * 100
         if args.min_gc is not None and gc_percent <= args.min_gc:
             continue
-        print(f"{header}\t{gc_percent:.4f}%")
+        print(f"{header}\t{gc_percent:.2f}%")
 
 
 if __name__ == "__main__":
